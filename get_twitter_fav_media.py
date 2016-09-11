@@ -3,7 +3,7 @@ from twitter import *
 import os.path
 import token
 import json
-from download_twitter_media.py import *
+from download_twitter_media import *
 
 dl_dir = 'trigger/'
 auth = OAuth(token.ACCESS_TOKEN, token.ACCESS_TOKEN_SECRET, token.CONSUMER_KEY, token.CONSUMER_SECRET)
